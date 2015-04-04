@@ -1,6 +1,5 @@
 ﻿var jvr = (function () {
     
-    
     function createLine(key, value, margin) {
         var type = getType(value),
             mValue = getTypePresentation(value, type),
@@ -77,7 +76,7 @@
         lineElem.appendChild(keyElem);
         lineElem.appendChild(valElem);
         lineElem.className = '_jvrLine' + (isComplex ? ' _comp' : '');
-        lineElem.style.marginLeft = getMarginStyle(margin);
+        lineElem.style.paddingLeft = getMarginStyle(margin);
         keyElem.className = '_jvrKey';
         valElem.className = '_jvrVal ' + valueClass;
         keyElem.innerHTML = s(key) + ':';
@@ -164,6 +163,5 @@
         }
         return container;
     }
-
 
 }());

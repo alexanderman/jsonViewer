@@ -3,6 +3,7 @@
 ._jvrCont ._jvrKey {  }
 ._jvrCont ._jvrVal { color:#000000; margin-left:5px; }
 ._jvrCont ._comp { cursor:pointer; }
+._jvrCont ._comp:hover { background-color: #F9F9F9; } 
 
 ._jvrCont ._arr { color: #777777; font-family: ariel; }
 ._jvrCont ._obj { color: #777777; font-family: ariel; }
