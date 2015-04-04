@@ -1,0 +1,12 @@
+﻿._jvrCont { font-family:Verdana; font-size:0.75em; color:#555555; padding: 5px 10px; border: solid 1px #EEEEEE; }
+._jvrCont ._jvrLine {}
+._jvrCont ._jvrKey {  }
+._jvrCont ._jvrVal { color:#000000; margin-left:5px; }
+._jvrCont ._comp { cursor:pointer; }
+
+._jvrCont ._arr {}
+._jvrCont ._obj {}
+._jvrCont ._fn { color:#638dff; font-style: italic; }
+._jvrCont ._str { color:#a31515; }
+._jvrCont ._num { color:#00a550; }
+

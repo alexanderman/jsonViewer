@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="script/jsonViewer.js"></script>
+    <link href="css/jsonViewer.css" rel="stylesheet" />
+    <title>JsonViewer example</title>
+</head>
+<body>
+    <button onclick="expand()">expand</button>
+    <button onclick="collapse()">collapse</button>
+    <button onclick="toggle()">toggle</button>
+    <div style="height:10px;"></div>
+<script>
+var someJson = {
+    message: 'some string message',
+    year: 2015,
+    person: {
+        first: 'Alexander', last: 'Shnirman',
+        salary: 15000,
+        phones: [
+            { type: 'mobile', number: '+972545xxxxxx' },
+            { type: 'work', number: '+972545xxxxxx' },
+            { type: 'home', number: '+972545xxxxxx' }
+        ]
+    },
+    method: function() { /*function diplay example*/ }
+};
+
+var jvObj = jvr('example', someJson);
+document.body.appendChild(jvObj);
+
+function expand() {
+    jvObj.expand();
+}
+function collapse() {
+    jvObj.collapse();
+}
+function toggle() {
+    jvObj.toggle();
+}
+
+</script>
+
+</body>
+</html>
