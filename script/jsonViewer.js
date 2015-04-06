@@ -93,7 +93,7 @@
         return container;
     }
     function getMarginStyle(margin) {
-        return (margin * 30).toString() + 'px';
+        return (margin * 2).toString() + 'em';
     }
     function insertAfter(refElem, newElem) {
         if (refElem.nextSibling) refElem.parentNode.insertBefore(newElem, refElem.nextSibling);
