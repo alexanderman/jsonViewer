@@ -1,0 +1,21 @@
+{
+  "name": "json-viewer",
+  "homepage": "https://github.com/alexanderman/jsonViewer",
+  "authors": [
+    "alexanderman <alexander.shnirman@gmail.com>"
+  ],
+  "description": "parses json into html",
+  "main": [
+    "/script/jsonViewer.js",
+    "/css/jsonViewer.css"
+  ],
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
