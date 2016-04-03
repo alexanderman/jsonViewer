@@ -6,8 +6,8 @@
   ],
   "description": "parses json into html",
   "main": [
-    "/script/jsonViewer.js",
-    "/css/jsonViewer.css"
+    "./script/jsonViewer.js",
+    "./css/jsonViewer.css"
   ],
   "moduleType": [],
   "license": "MIT",
